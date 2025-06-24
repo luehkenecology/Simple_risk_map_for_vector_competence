@@ -71,5 +71,6 @@ for(year in 2020:2024){
   print(year)
 }
 
-data <- temp_func(nc_open("data/tg_0.1deg_day_2021_grid_ensmean.nc"),
-                  year_start = 2021, var = "tg")
+# Convert NetCDF to raster for individual year
+#data <- temp_func(nc_open("data/tg_0.1deg_day_2021_grid_ensmean.nc"),
+#                  year_start = 2021, var = "tg")
